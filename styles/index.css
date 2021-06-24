@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+button {
+  appearance: none;
+  outline: none;
+  border: none;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input {
+  font-family: inherit;
+  border: none;
+  appearance: none;
+}
+
+/*# sourceMappingURL=index.css.map */
