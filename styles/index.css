@@ -13,9 +13,13 @@ html {
 }
 
 body {
+  font-size: 1.5rem;
   font-family: sans-serif;
   box-sizing: border-box;
   min-height: 100vh;
+  display: grid;
+  grid-template: 1fr;
+  grid-template-rows: repeat(5, auto);
 }
 
 button {
@@ -34,6 +38,33 @@ input {
   font-family: inherit;
   border: none;
   appearance: none;
+}
+
+li {
+  list-style: none;
+}
+
+.nav {
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav__list {
+  background: wheat;
+  display: flex;
+  align-items: center;
+}
+.nav__link {
+  background: red;
+  padding: 1rem;
+  display: block;
+}
+.nav__link:hover {
+  color: red;
+}
+.nav__link:active {
+  color: white;
 }
 
 /*# sourceMappingURL=index.css.map */
